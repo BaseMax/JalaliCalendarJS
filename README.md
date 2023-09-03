@@ -2,6 +2,15 @@
 
 This is a JavaScript library that allows you to working with Jalali Calendar system.
 
+## Using
+
+```javascript
+// console.log(jalaliDate(2022, 12, 5));
+// console.log(daysOfMonth(1401, 9));
+// console.log(days[firstDayOfYear(1401)]); // دو شنبه
+// console.log(days[firstDayOfMonth(1401, 9)]);
+```
+
 ## Functions
 
 - `en2fa(value)`: Convert a English number to Persian digit characters
